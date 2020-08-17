@@ -1,23 +1,4 @@
 
-title: Minhyuk Sung
-url: 'https://mhsung.github.io/'
-#baseurl: '/example' #change it according to your repository name
-permalink: none
-
-#Profile information
-name: Minhyuk Sung
-tagline: Research Scientist<br>Adobe Research 
-#pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-#sidebar links
-email: msung@adobe.com
-website: mhsung.github.io/ #do not add http://
-linkedin: mhsung
-github: mhsung
-cv: cs.stanford.edu/~mhsung/sung_cv.pdf
-research_statement: cs.stanford.edu/~mhsung/sung_research_statement.pdf
-teaching_statement: cs.stanford.edu/~mhsung/sung_teaching_statement.pdf
-
-# Tracker
+title: cv
+url: 'https://byungkukseo.github.io/bkseo.github.io/'
 analytics: UA-35688210-1
-#Update all the sections by editing the files inside _includes folder.
