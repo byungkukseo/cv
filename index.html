@@ -4,37 +4,59 @@
 <title>CSS Website Layout</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
 <style>
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Hind Madurai', sans-serif; 
+  font-family: 'Roboto', sans-serif; 
   font-weight : 300;
   margin: 0;
 }
 
+.thin {
+    font-family: 'Roboto', sans-serif; 
+    font-weight : 100;
+  }
+
+.thin_it {
+    font-family: 'Roboto', sans-serif; 
+    font-weight : 100;
+    font-style: italic;   
+  }
+  
+ .light {
+    font-family: 'Roboto', sans-serif; 
+    font-weight : 300;
+  }
+
+.light_it {
+    font-family: 'Roboto', sans-serif; 
+    font-weight : 300;
+    font-style: italic;   
+  }
+  
 .regular {
-    font-family: 'Tenali Ramakrishna', sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     font-weight : 400;
   }
 
 .regular_it {
-    font-family: 'Cuprum', sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     font-weight : 400;
     font-style: italic;   
   }
 
-.bold {
-    font-family: 'Cuprum', sans-serif; 
-    font-weight : 700;
+.Medium {
+    font-family: 'Roboto', sans-serif; 
+    font-weight : 500;
   }
 
-.bold_it {
-   font-family: 'Cuprum', sans-serif; 
-   font-weight : 700;
+.Medium_it {
+   font-family: 'Roboto', sans-serif; 
+   font-weight : 500;
    font-style: italic;
   }
   
@@ -92,11 +114,19 @@ a:link {
   
 <div class="column middle">
 <h2>Main Content</h2>
-  <b> A framework for real-time 3D freeform manipulation of facial video</b><br>
+<table style="background-color:transparent">
+<tr>
+<td>
+  <img border="1" height="90" src="https://sites.google.com/site/cvbkseo/main/19-11.png" style="display:block;margin-left:auto;margin-right:auto;text-align:center" width="124">
+</td>
+<td>
+  <p class="regular"> A framework for real-time 3D freeform manipulation of facial video</p><br>
   Jungsik Park, <u>Byung-Kuk Seo</u>, and Jong-Il Park<br>
   Applied Sciences, Nov 2019<br>
   <u><a href="https://doi.org/10.3390/app9214707" rel="nofollow" target="_blank">paper (open access)</a></u>, <u><a href="https://youtu.be/1Yscz32e-Yw" target="_blank">video</a></u>
-</div>
+</td>
+</tr>
+</table></div>
  
   
   <div class="column side">
