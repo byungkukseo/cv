@@ -10,10 +10,10 @@
 
 .LatexTitle{
     font-family: CMR;
-    font-size: 20px;
-    padding-top: 10vh;
+    font-size: 10px;
+    padding-top: 3vh;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .LatexName{
@@ -24,10 +24,10 @@
 }
 .LatexDate{
     font-family: CMR;
-    font-size: 10px;
+    font-size: 5px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 45px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 .LatexAbstract{
