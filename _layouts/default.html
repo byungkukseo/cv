@@ -3,10 +3,18 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" href="./assets/css/style.css">
     <meta charset="utf-8">
-
-    <style>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <style>      
+      .BodyText{
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+    text-align: Left;
+    margin-top: 13px;
+    margin-bottom: 45px;
+    line-height: 130%;
+}
       a:link {
         color: #0000c7;
         background-color: transparent;
@@ -29,14 +37,10 @@
       <p class="LatexTitle">{{ page.title }}</p>
       {% if page.date %} <p class="LatexDate">{{ page.date }}</p> {% endif %}
  
-
-      
       {{ content }}
-
-
+      
     </div>
   </body>
   <footer class="footerSize">
-
   </footer>
 </html>
