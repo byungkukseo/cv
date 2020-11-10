@@ -15,63 +15,23 @@
     text-align: center;
     margin-bottom: 5px;
 }
-
-.LatexName{
-    font-family: CMR;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 5px;
-}
 .LatexDate{
     font-family: CMR;
     font-size: 15px;
     text-align: center;
     margin-bottom: 10px;
 }
-
-.LatexAbstract{
-    font-family: CMB;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.LatexAbstractText{
-    margin-top:10px;
-    font-family: CMR;
-    font-size: 21px;
-    text-align: center;
-    text-align: justify;
-    text-indent: 20px
-}
-
 .Margins{
     padding-left: 21%;
     width: 58%;
 }
-
-.AbstractMargins{
-    padding-left: 6%;
-    width: 88%;
-    padding-bottom: 15px;
-}
-
-.Section{
-    font-family: CMB;
-    font-size: 33px;
-    text-align: Left;
-    margin-top: 13px;
-    margin-bottom: 20px;
-}
-
 .BodyText{
     font-family: CMR;
-    font-size: 23px;
+    font-size: 20px;
     text-align: Left;
     margin-top: 13px;
     margin-bottom: 45px;
-    line-height: 125%;
+    line-height: 130%;
 }
 
 .footerSize{
