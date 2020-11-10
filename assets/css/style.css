@@ -18,15 +18,14 @@
 
 .LatexName{
     font-family: CMR;
-    font-size: 10px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 5px;
 }
 .LatexDate{
     font-family: CMR;
-    font-size: 5px;
+    font-size: 15px;
     text-align: center;
-    margin-top: 5px;
     margin-bottom: 15px;
 }
 
