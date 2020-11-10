@@ -7,8 +7,6 @@
     src: url(../fonts/cmuserif_bold_macroman/cmunbx-webfont.woff);
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;1,200&display=swap');
-
 .LatexTitle{
     font-family: CMR;
     font-size: 30px;
