@@ -7,6 +7,7 @@
     src: url(../fonts/cmuserif_bold_macroman/cmunbx-webfont.woff);
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;1,200&display=swap');
 
 .LatexTitle{
     font-family: CMR;
@@ -26,7 +27,7 @@
     width: 58%;
 }
 .BodyText{
-    font-family: CMR;
+    font-family: 'Spectral', serif;
     font-size: 20px;
     text-align: Left;
     margin-top: 13px;
