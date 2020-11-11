@@ -8,14 +8,14 @@
   }
 
 .LatexTitle{
-    font-family: CMR;
+    font-family: 'Spectral', serif;;
     font-size: 30px;
     padding-top: 1vh;
     text-align: center;
     margin-bottom: 5px;
 }
 .LatexDate{
-    font-family: CMR;
+    font-family: 'Spectral', serif;;
     font-size: 15px;
     text-align: center;
     margin-bottom: 5px;
@@ -25,7 +25,7 @@
     width: 58%;
 }
 .BodyText{
-    font-family: CMR;
+    font-family: 'Spectral', serif;;
     font-size: 20px;
     text-align: Left;
     margin-top: 13px;
