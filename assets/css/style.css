@@ -17,13 +17,12 @@
 }
 .BodyText{
     font-family: 'Spectral', serif;
-    font-size: 18px;
+    font-size: 17px;
     text-align: Left;
-    margin-top: 13px;
-    margin-bottom: 45px;
-    line-height: 120%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 130%;
 }
-
 .footerSize{
     height: 30vh;
     width: 100%;
