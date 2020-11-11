@@ -15,6 +15,13 @@
     padding-left: 21%;
     width: 58%;
 }
+.Section{
+    font-family: 'Spectral', serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: Left;
+    margin-top: 5px;
+}
 .BodyText{
     font-family: 'Spectral', serif;
     font-size: 16px;
