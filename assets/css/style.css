@@ -18,7 +18,7 @@
 .BodyText{
     font-family: 'Spectral', serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     text-align: Left;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -27,7 +27,7 @@
 .DivText{
     font-family: 'Spectral', serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 12px;
     text-align: Left;
 }
 .footerSize{
