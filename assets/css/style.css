@@ -1,12 +1,12 @@
 .LatexTitle{
-    font-family: 'Spectral', serif;
+    font-family: 'Cardo', serif;
     font-size: 30px;
     padding-top: 1vh;
     text-align: center;
     margin-bottom: 5px;
 }
 .LatexDate{
-    font-family: 'Spectral', serif;
+    font-family: 'Cardo', serif;
     font-size: 15px;
     text-align: center;
     margin-bottom: 5px;
@@ -16,7 +16,7 @@
     width: 58%;
 }
 .BodyText{
-    font-family: 'Spectral', serif;
+    font-family: 'Cardo', serif;
     font-weight: 300;
     font-size: 16px;
     text-align: Left;
@@ -25,7 +25,7 @@
     line-height: 130%;
 }
 .DivText{
-    font-family: 'Spectral', serif;
+    font-family: 'Cardo', serif;
     font-weight: 300;
     font-size: 10px;
     text-align: Left;
