@@ -18,7 +18,7 @@
 .BodyText{
     font-family: 'Crimson Text', serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 17px;
     text-align: Left;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -35,5 +35,5 @@
     width: 100%;
 }
 .Bold {
-    font-weight: 300;
+    font-weight: 400;
 }
