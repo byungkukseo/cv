@@ -17,7 +17,7 @@
 }
 .BodyText{
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 16px;
     text-align: Left;
     margin-top: 5px;
@@ -26,7 +26,7 @@
 }
 .DivText{
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 10px;
     text-align: Left;
 }
@@ -35,5 +35,5 @@
     width: 100%;
 }
 .Bold {
-    font-weight: 400;
+    font-weight: 300;
 }
