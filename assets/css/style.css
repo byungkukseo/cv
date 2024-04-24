@@ -17,6 +17,10 @@
     padding-left: 21%;
     width: 58%;
 }
+.Body{
+    background-color: rgb(0 0 0);
+    color: rgb(255 255 255);
+}
 .BodyText{
     font-family: 'Arapey', serif;
     font-weight: 300;
