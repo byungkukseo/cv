@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
 
+li {
+   vertical-align: top;
+   text-align: left;
+   padding: 0; 
+}
 td {
    vertical-align: top;
    text-align: left;
