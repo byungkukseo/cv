@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
 
 .li{
-    margin: 1px 0;
+    padding: 5px;
 }
 .LatexTitle{
     font-family: 'Arapey', serif;
@@ -22,7 +22,7 @@
 }
 .Margins{
     padding-left: 21%;
-    width: 58%;
+    width: 70%;
 }
 .BodyText{
     font-family: 'Arapey', serif;
