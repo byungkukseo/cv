@@ -4,15 +4,6 @@ figure {
   font-size: 20px;
 }
 
-p {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  background-color: #FF7DF3
-}
-
 ul {
    margin-block-end: 0px;
    margin-block-start: 0px;
