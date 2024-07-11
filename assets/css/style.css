@@ -11,7 +11,7 @@ ul {
 td {
    vertical-align: top;
    text-align: left;
-   padding: 0; 
+   padding: 5px; 
 }
 .LatexTitle{
     font-family: 'Roboto', serif;
