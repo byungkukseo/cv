@@ -3,34 +3,6 @@ layout: default
 title:
 date: <b><font color="#DFDFDF"><a href="./index.html" rel="nofollow">HOME</a></font></b>&nbsp;<font color="#DFDFDF">&#149</font>&nbsp;<b><font color="#DFDFDF"><a href="./cv.html" rel="nofollow">CV</a></font></b>&nbsp;<font color="#DFDFDF">&#149</font>&nbsp;<b><font color="#DFDFDF"><a href="./research.html" rel="nofollow">RESEARCH</a></font></b>&nbsp;<font color="#DFDFDF">&#149</font>&nbsp;<b><font color="#DFDFDF"><a href="./publication.html" rel="nofollow">PUBLICATION</a></font></b>&nbsp;<font color="#DFDFDF">&#149</font>&nbsp;<b><font color="#DFDFDF"><a href="./patent.html" rel="nofollow">PATENT</a></font></b><br>
 ---
-<style>
-  /* Base layout styling */
-  .content {
-    margin-top: 15px;
-    padding: 15px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    transition: opacity 0.3s ease; /* Smooth fade effect */
-  }
-
-  /* The class that actually hides the element */
-  .hidden {
-    display: none;
-    opacity: 0;
-  }
-</style>
-
-<script>
-  // 1. Select the button and the content elements
-  const btn = document.getElementById('toggleBtn');
-  const content = document.getElementById('contentBox');
-
-  // 2. Listen for a click on the button
-  btn.addEventListener('click', () => {
-    // 3. Add or remove the 'hidden' class automatically
-    content.classList.toggle('hidden');
-  });
-</script>
 <table cellspacing="5">
 <tr>
 <td>
@@ -580,3 +552,31 @@ date: <b><font color="#DFDFDF"><a href="./index.html" rel="nofollow">HOME</a></f
 </td>
 </tr>
 </table>
+<style>
+  /* Base layout styling */
+  .content {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    transition: opacity 0.3s ease; /* Smooth fade effect */
+  }
+
+  /* The class that actually hides the element */
+  .hidden {
+    display: none;
+    opacity: 0;
+  }
+</style>
+
+<script>
+  // 1. Select the button and the content elements
+  const btn = document.getElementById('toggleBtn');
+  const content = document.getElementById('contentBox');
+
+  // 2. Listen for a click on the button
+  btn.addEventListener('click', () => {
+    // 3. Add or remove the 'hidden' class automatically
+    content.classList.toggle('hidden');
+  });
+</script>
