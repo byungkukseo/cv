@@ -4,6 +4,10 @@ figure {
   font-size: 20px;
 }
 
+du {    
+   text-decoration-line: underline;
+   text-decoration-style: dotted;
+}
 ul {
    margin-block-end: 0px;
    margin-block-start: 0px;
