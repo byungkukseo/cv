@@ -295,9 +295,9 @@ date: <b><font color="#DFDFDF"><a href="./index.html" rel="nofollow">HOME</a></f
 <td style="width:3%">
 </td>
 <td style="width:77%">
-<button class="BodyText" type="button" id="toggleBtn">Show/Hide</button>
+<button class="BodyText" type="button" id="toggleBtn1">Show/Hide</button>
 <!-- <h2><font color="#001BFF">Papers in Korean</font></h2> -->
-<div id="contentBox" class="content hidden">
+<div id="contentBox1" class="content hidden">
 <b>14 Journal Articles / 22 Conference Papers (details are not listed here)</b>
 </div>
 <!--
@@ -399,8 +399,8 @@ date: <b><font color="#DFDFDF"><a href="./index.html" rel="nofollow">HOME</a></f
 <td style="width:3%">
 </td>
 <td style="width:77%">
-<button class="BodyText" type="button" id="toggleBtn">Show/Hide</button>
-<div id="contentBox" class="content hidden">
+<button class="BodyText" type="button" id="toggleBtn2">Show/Hide</button>
+<div id="contentBox2" class="content hidden">
 <!-- <h2><font color="#001BFF">Presentation</font></h2> -->
 <b>Interactive Virtual Manipulation of a 3D Real Object Using Visual Tracking</b>
 <ul>
@@ -568,12 +568,21 @@ date: <b><font color="#DFDFDF"><a href="./index.html" rel="nofollow">HOME</a></f
 
 <script>
   // 1. Select the button and the content elements
-  const btn = document.getElementById('toggleBtn');
-  const content = document.getElementById('contentBox');
+  const btn1 = document.getElementById('toggleBtn1');
+  const content1 = document.getElementById('contentBox1');
 
   // 2. Listen for a click on the button
-  btn.addEventListener('click', () => {
+  btn1.addEventListener('click', () => {
     // 3. Add or remove the 'hidden' class automatically
-    content.classList.toggle('hidden');
+    content1.classList.toggle('hidden');
+  });
+    // 1. Select the button and the content elements
+  const btn2 = document.getElementById('toggleBtn2');
+  const content2 = document.getElementById('contentBox2');
+
+  // 2. Listen for a click on the button
+  btn2.addEventListener('click', () => {
+    // 3. Add or remove the 'hidden' class automatically
+    content2.classList.toggle('hidden');
   });
 </script>
