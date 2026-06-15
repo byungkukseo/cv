@@ -27,6 +27,10 @@ date: <b><font color="#DFDFDF"><a href="./index.html" rel="nofollow">HOME</a></f
 <ul>
 <li>Granted by Ministry of Culture, Sports and Tourism, South Korea (Apr. 2024–Dec. 2026)</li>
 </ul>
+<br>  
+<br>  
+<button style="border: none; background-color: transparent; margin-bottom: 20px;" class="BodyText" type="button" id="toggleBtn1"><du>(Completed)</du></button>
+<div id="contentBox1" class="content hidden">  
 <hr color="F0F0F0">
 <b>Technology Development of Creation, Manipulation and Augmentation for XR in the Real-World Environment</b><br>
 <ul>
@@ -56,7 +60,8 @@ date: <b><font color="#DFDFDF"><a href="./index.html" rel="nofollow">HOME</a></f
 <ul>
 <li>Granted by Ministry of Science and ICT, South Korea (May 2019–Nov. 2019)</li>
 <li>Collaborated with Dr. Gun A. Lee and Prof. Mark Billinghurst, University of South Australia, Australia</li>
-</ul>  
+</ul>
+</div>
 
 <!--
 <ul>
@@ -155,3 +160,30 @@ Granted by Ministry of Culture, Sports and Tourism, South Korea (Nov 2016-Mar 20
 </td>
 </tr>
 </table>
+
+
+<style>
+  /* Base layout styling */
+  .content {
+    border: 0px;
+    transition: opacity 0.3s ease; /* Smooth fade effect */
+  }
+
+  /* The class that actually hides the element */
+  .hidden {
+    display: none;
+    opacity: 0;
+  }
+</style>
+
+<script>
+  // 1. Select the button and the content elements
+  const btn1 = document.getElementById('toggleBtn1');
+  const content1 = document.getElementById('contentBox1');
+
+  // 2. Listen for a click on the button
+  btn1.addEventListener('click', () => {
+    // 3. Add or remove the 'hidden' class automatically
+    content1.classList.toggle('hidden');
+  });
+</script>
